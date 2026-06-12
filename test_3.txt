@@ -1,4 +1,4 @@
 test for vs code to github
 
 U --- untracked
-a --- added
+A --- added
