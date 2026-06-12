@@ -1,4 +1,3 @@
 print("welcome!")
-name = "siva"
-age = 25
-is_intern = True
+name = "hari"
+age = "26"
