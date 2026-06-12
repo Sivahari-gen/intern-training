@@ -1,3 +1,4 @@
 print("welcome!")
 name = "hari"
-age = "26"
+age = "25"
+is_intern = True
