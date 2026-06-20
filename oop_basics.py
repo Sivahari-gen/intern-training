@@ -1,4 +1,6 @@
+
 #Grade system.
+
 class Student:
     def __init__(self,name,grade):
         self.name = name
@@ -29,7 +31,11 @@ class BankAccount:
     def deposit(self,amount=int(input("Enter the amount for deposit:"))):
         self.balance += amount
         print(f"your balance after deposit {self.balance}")
+<<<<<<< HEAD
     def withdraw(self,amount=int(input("enter withdrawal amount: "))):
+=======
+    def withdraw(self,amount=int(input("enter withdrawal anount: "))):
+>>>>>>> f185c568b344c3243566783d5ee73b43ff7d84e4
         if self.balance >= amount:
             self.balance -= amount
             print(f"your balance after withdraw {self.balance}")
