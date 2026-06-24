@@ -1,5 +1,6 @@
 create table users(
 	user_id Serial primary key,
+	--serial for auto increment in integer, so we don't have to put number manually
 	user_name varchar(20) not null,
 	user_age int,
 	user_ph_no varchar(10) unique,
@@ -15,6 +16,11 @@ VALUES
 ('mara', 35, '5555555555', 'mara55@ai.com');
 
 alter table users alter column user_ph_no type varchar(12);
+-- to alter the constraint
+ALTER TABLE users DROP CONSTRAINT user_ph_no;
+ALTER TABLE users ADD UNIQUE (user_ph_no);
+-- to check i work out this its give null value
+update users set user_ph_no = null where user_name = 'ram'
 select * from users
 where user_age <=30
 
@@ -22,3 +28,4 @@ where user_age <=30
 order by user_name asc
 
 show port;
+-- it shows network port for PostgreSQL(we try to use PostgreSQL in vscode i need this network port to connect with it, to know that i use this code)
