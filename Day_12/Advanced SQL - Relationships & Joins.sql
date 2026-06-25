@@ -1,0 +1,26 @@
+-- create table posts(
+-- 	post_id int primary key,
+-- 	course varchar(100),
+-- 	user_id int
+-- );
+-- insert into posts (post_id,course,user_id)
+-- values
+-- (101,'python',1),
+-- (102,'sql',1),
+-- (103,'fastapi',2),
+-- (104,'react',3),
+-- (105,'java script',3);
+-- select * from posts
+-- update users set user_ph_no =9344058819 where user_name ='sivahari'
+-- delete from users where user_name='mara'
+-- select * from users
+-- select course,users.user_id,user_name as author_name
+-- from users inner join posts on users.user_id=posts.user_id
+
+-- select users.user_id,user_name,course
+-- from users left join posts on users.user_id=posts.user_id
+
+-- select users.user_id,user_name,count(course) as course_count
+-- from users left join posts on users.user_id = posts.user_id
+-- group by users.user_id,user_name
+-- order by users.user_id
