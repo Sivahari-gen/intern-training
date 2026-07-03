@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 5px
+}
+
+main{
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    background-color: rgba(101, 113, 114, 0.537);
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(40, 1, 84);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    border: 2px solid rgb(55, 0, 80);
+    background-color: rgba(193, 209, 210, 0.537);
+    padding: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 49px;
+    padding: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
