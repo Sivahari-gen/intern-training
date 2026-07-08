@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <button id="btn"> Theme </button>
+    </header>
+    <main>
+        <section class="about">
+            <img src="img/images.jpg" alt="Profile Image" width="50px" height="50px">
+            <div>
+                <h2>About Me</h2>
+                <p>learn about Python, Sql, HTML, CSS, JavaScript</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>✆ Contact Me</h2>
+            <form>
+                Name:<br>
+                <input type="text" placeholder="Enter your name"><br><br>
+                Email:<br>
+                <input type="email" placeholder="Enter your maild Id"><br><br>
+                Message:<br>
+                <textarea placeholder="Leave your Message here"></textarea><br><br>
+
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <input type="text" id="skillInput" placeholder="Enter your skills">
+            <button id="skillbtn"> Add </button>
+            <ul id="all_skill"></ul>
+        </section>
+        <section class="quote">
+            <h2>Quote</h2>
+            <button id="quote_btn">Click Me</button>
+            <p id="quote"></p>
+        </section>
+    </main>
+<hr><hr>
+
+<footer>
+    <p><b>👉Make sure submit all the details correctly⚠️</b></p>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
